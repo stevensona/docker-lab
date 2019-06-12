@@ -1,6 +1,7 @@
 # Lab1
 
-Purpose of this lab is to familiarize user with long-running services in docker.
+Purpose of this lab is to familiarize user with longer-running services in
+docker.
 
 # Files
 
@@ -13,7 +14,7 @@ Purpose of this lab is to familiarize user with long-running services in docker.
 1. Enter lab1 directory and execute `docker build -t lab1 .` to build lab1
    image.
 
-2. Execute `docker run --rm -it --p 8080:4567 lab1` to start an instance of the
+2. Execute `docker run --rm -p 8080:4567 lab1` to start an instance of the
    newly created an image.
 
 3. Visit http://localhost:8080 in your web-browser to make a request to the app.
