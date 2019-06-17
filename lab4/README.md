@@ -5,7 +5,7 @@ data outside of a container.
 
 # Steps
 
-1. Enter lab3 and execute `docker-compose up` to bring up the application.
+1. Enter lab4 and execute `docker-compose up` to bring up the application.
 
 2. Visit http://localhost:8080 and reload the page several times to
    increment the counter.
